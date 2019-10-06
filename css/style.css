@@ -50,6 +50,7 @@ header > a > img{
     /* vertical-align: top; */
     padding: 15px 18px 40px 15px;
     /* margin-right: 15px; */
+    
 }
 .article-box-margin{
     margin-right: 30px;
@@ -63,15 +64,18 @@ header > a > img{
     width: 345px;
     font-size: 20px;
     line-height: 28px;
+    font-weight: normal;
 }
 .article-title{
     margin-bottom: 18px;
 }
 .article-wraper{
     margin-top: 20px;
+    font-weight: bold;
 }
 .wraper-title{
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }
 .wraper-title a{
     text-transform: lowercase;
@@ -79,6 +83,33 @@ header > a > img{
 
 /* end featured-section */
 
-.test{
-    font-family: 'BPG Nino Mtavruli Bold';
+/* contact-page */
+.contact-section{
+    background-color: #E6E6E6;
+    padding-top: 40px;
+    padding-bottom: 55px;
 }
+.contact-span{
+    font-size: 16px;
+    color: #808080;
+    /* ფონტი შესაცვლელია */
+    font-family: 'Roboto', sans-serif;
+}
+.contact-title{
+    color: #3D58A6;
+    font-size: 20px;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+.left-block{
+    vertical-align: top;
+    padding-right: 55px;
+}
+.right-block{
+    vertical-align: top;
+}
+iframe{
+    /* display: inline-block; */
+    width: 860px;
+    height: 466px;
+}
+/* end contact-page */
